@@ -1,0 +1,14 @@
+.rectangle {
+    width: 70%;
+    background-color: red;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    word-break: break-all;
+}
+
+.rectangle-text {
+    width: 92%;
+    color: white;
+    margin-left: 20px;
+}
