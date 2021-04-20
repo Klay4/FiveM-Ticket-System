@@ -1,3 +1,6 @@
+#WARNING: This repository is no longer maintained ⚠️
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # FiveM-Ticket-System
 
 https://i.imgur.com/wQ8UW8C.png
