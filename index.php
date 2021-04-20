@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ticket - FutureServer RP</title>
+    <title>Ticket - ServerName</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -39,10 +39,6 @@
       <hr>
         <?php
           if(!$steam->loggedIn()) {
-            /*echo "<div><div style='margin-top: 30px; text-align: center;'>Benvenuto!</div><a href='";
-            echo $steam->loginUrl();
-            echo "'><button style='margin: auto;' type='button' class='btn btn-success' onclick='openMyTicket()'>Login</button></a>";*/
-
             echo "<div style='margin: 30px auto; text-align: center;'>Benvenuto! <a href='";
             echo $steam->loginUrl();
             echo "'>Perfavore effettua il login!</a></div>";
